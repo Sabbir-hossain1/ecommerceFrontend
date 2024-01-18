@@ -1,4 +1,3 @@
-import React from "react";
 import { CiLocationOn } from "react-icons/ci";
 import { BsTelephone, BsFacebook } from "react-icons/bs";
 import { TfiEmail } from "react-icons/tfi";
