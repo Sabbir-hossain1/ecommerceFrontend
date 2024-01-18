@@ -12,55 +12,81 @@ const Footer = () => {
       <div className="h-[90%] md:flex py-10 px-10">
         {/* eCommerce section */}
         <div className="w-[400px]">
-          <h2 className="text-2xl text-blue-gray-600 font-semibold uppercase">ECommerce</h2>
-          <p className="text-xl text-blue-gray-500">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt accusantium, quasi nostrum corporis at
-          </p>
+          <h2 className="text-2xl text-blue-gray-600 font-semibold uppercase">
+            ECommerce
+          </h2>
+          <p className="text-xl text-blue-gray-500">Updated Footer</p>
           <p className="text-2xl uppercase text-blue-gray-600">newsletter</p>
 
           <div className="w-[90%] m-2">
-          <div className="relative flex w-full max-w-[24rem]">
-      <Input
-        type="email"
-        label="Email Address"        
-        className="pr-20"
-        containerProps={{
-          className: "min-w-0",
-        }}
-      />
-      <Button
-        size="sm"               
-        className="!absolute right-1 top-1 rounded bg-pink-500"
-      >
-        Subscribe
-      </Button>
-    </div>        
+            <div className="relative flex w-full max-w-[24rem]">
+              <Input
+                type="email"
+                label="Email Address"
+                className="pr-20"
+                containerProps={{
+                  className: "min-w-0",
+                }}
+              />
+              <Button
+                size="sm"
+                className="!absolute right-1 top-1 rounded bg-pink-500"
+              >
+                Subscribe
+              </Button>
+            </div>
           </div>
         </div>
 
         {/* Menu Section Start here */}
         <div className="grid sm:grid-cols-2  md:grid-cols-3">
           <div>
-            <h1 className="text-2xl uppercase font-semibold text-blue-gray-600">My Account</h1>
-            <p className="p-1 m-1 text-blue-gray-500 hover:text-pink-500 cursor-pointer">Orders</p>
-            <p className="p-1 m-1 text-blue-gray-500 hover:text-pink-500 cursor-pointer">WishList</p>
-            <p className="p-1 m-1 text-blue-gray-500 hover:text-pink-500 cursor-pointer">Track Order</p>
-            <p className="p-1 m-1 text-blue-gray-500 hover:text-pink-500 cursor-pointer">Manage Account</p>
-            <p className="p-1 m-1 text-blue-gray-500 hover:text-pink-500 cursor-pointer">Return Order</p>
+            <h1 className="text-2xl uppercase font-semibold text-blue-gray-600">
+              My Account
+            </h1>
+            <p className="p-1 m-1 text-blue-gray-500 hover:text-pink-500 cursor-pointer">
+              Orders
+            </p>
+            <p className="p-1 m-1 text-blue-gray-500 hover:text-pink-500 cursor-pointer">
+              WishList
+            </p>
+            <p className="p-1 m-1 text-blue-gray-500 hover:text-pink-500 cursor-pointer">
+              Track Order
+            </p>
+            <p className="p-1 m-1 text-blue-gray-500 hover:text-pink-500 cursor-pointer">
+              Manage Account
+            </p>
+            <p className="p-1 m-1 text-blue-gray-500 hover:text-pink-500 cursor-pointer">
+              Return Order
+            </p>
           </div>
           <div>
             {" "}
-            <h1 className="text-2xl uppercase font-semibold text-blue-gray-600">Information</h1>
-            <p className="p-1 m-1 text-blue-gray-500 hover:text-pink-500 cursor-pointer">About us</p>
-            <p className="p-1 m-1 text-blue-gray-500 hover:text-pink-500 cursor-pointer">Return Policy</p>
-            <p className="p-1 m-1 text-blue-gray-500 hover:text-pink-500 cursor-pointer">Terms & Condition</p>
-            <p className="p-1 m-1 text-blue-gray-500 hover:text-pink-500 cursor-pointer">Privacy Policy</p>
-            <p className="p-1 m-1 text-blue-gray-500 hover:text-pink-500 cursor-pointer">FAQ</p>
+            <h1 className="text-2xl uppercase font-semibold text-blue-gray-600">
+              Information
+            </h1>
+            <p className="p-1 m-1 text-blue-gray-500 hover:text-pink-500 cursor-pointer">
+              About us
+            </p>
+            <p className="p-1 m-1 text-blue-gray-500 hover:text-pink-500 cursor-pointer">
+              Return Policy
+            </p>
+            <p className="p-1 m-1 text-blue-gray-500 hover:text-pink-500 cursor-pointer">
+              Terms & Condition
+            </p>
+            <p className="p-1 m-1 text-blue-gray-500 hover:text-pink-500 cursor-pointer">
+              Privacy Policy
+            </p>
+            <p className="p-1 m-1 text-blue-gray-500 hover:text-pink-500 cursor-pointer">
+              FAQ
+            </p>
           </div>
 
           <div>
             {" "}
-            <h1 className="text-2xl uppercase font-semibold text-blue-gray-600">Contact</h1>
+            <h1 className="text-2xl uppercase font-semibold text-blue-gray-600">
+              Contact
+            </h1>
             <div className="flex items-center mt-2 text-blue-gray-500">
               <CiLocationOn className="mr-3" />
               <p>Syed Nagar, Batara, Dhaka, Bangladesh</p>
@@ -84,9 +110,15 @@ const Footer = () => {
 
       {/* Bottom section */}
       <div className="h-[10%] bg-[#3f3933] sm:flex sm:justify-between">
-        <p className="text-xl text-white text-center m-1 p-1">@eCommerce - All Right Reserved</p>
+        <p className="text-xl text-white text-center m-1 p-1">
+          @eCommerce - All Right Reserved
+        </p>
         <div className="m-1 p-1 flex items-center justify-center sm:justify-end">
-          <img className="w-[400px]" src="/assets/img/Footer/payment-method.png" alt="payment" />
+          <img
+            className="w-[400px]"
+            src="/assets/img/Footer/payment-method.png"
+            alt="payment"
+          />
         </div>
       </div>
     </div>
